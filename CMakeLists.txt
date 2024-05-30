@@ -39,7 +39,7 @@ set(SOURCES
 
 add_executable(&{PROJECT_NAME} ${SOURCES})
 
-target_include_directories(chain_of_responsibilityaa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+target_include_directories(&{PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 # Добавление заголовочных файлов
 set(HEADERS
@@ -49,4 +49,4 @@ set(HEADERS
     code/Square.h
 )
 
-target_include_directories(chain_of_responsibilityaa PUBLIC ${HEADERS})
+target_include_directories(&{PROJECT_NAME} PUBLIC ${HEADERS})
