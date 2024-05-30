@@ -37,7 +37,7 @@ set(SOURCES
     code/Square.cpp
 )
 
-add_executable(chain_of_responsibilityaa ${SOURCES})
+add_executable(&{PROJECT_NAME} ${SOURCES})
 
 target_include_directories(chain_of_responsibilityaa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
