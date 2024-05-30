@@ -33,7 +33,6 @@ include(CPack.cmake)
 set(SOURCES
     code/Circle.cpp
     code/DrawAllShapes.cpp
-    code/G15_Object_Oriented_Solurion.cpp
     code/Main.cpp
     code/Square.cpp
 )
