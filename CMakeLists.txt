@@ -11,8 +11,8 @@ endif()
 
 add_library(chain_of_responsibility STATIC
     ${CMAKE_CURRENT_SOURCE_DIR}/code/Circle.h
-    ${CMAKE_CURRENT_SOURCE_DIR}code/Point.h
-    ${CMAKE_CURRENT_SOURCE_DIR}code/Shape.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/code/Point.h
+    ${CMAKE_CURRENT_SOURCE_DIR}/code/Shape.h
     ${CMAKE_CURRENT_SOURCE_DIR}/code/Square.h
 )
 
